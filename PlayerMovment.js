@@ -27,5 +27,6 @@ function MovePlayer (direction,MoveBlocks){
       
     
   })
-
+.then((Player)){console.log(`ur player is at ${Player.y},${Player.x}`)}
+.catch{console.log('error 404 , restart game please')}
 }
