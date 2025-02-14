@@ -15,11 +15,11 @@ function MovePlayer (direction,MoveBlocks){
   .then((direction,MoveBlocks) => {
     if (direction = up){
       Player.y + MoveBlocks
-    }if (direction = down) {
+    }else if (direction = down) {
       Player.y - MoveBlocks
-    }if (direction = right) {
+    }else if (direction = right) {
       Player.x + MoveBlocks
-    } if (direction = left) {
+    }else if (direction = left) {
       Player.x - MoveBlocks
     }else{
       console.log('please reasign the direction right or the Move Blocks')
